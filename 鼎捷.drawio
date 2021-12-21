@@ -1,1 +1,191 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T12:53:24.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" version="15.9.1" etag="xiw1St0-gDWI77h7r1Ax" type="github"><diagram id="_qJE0IMFuHd5htYyMUY-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-21T13:38:19.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="wIiARzt5td5GTWqzBQUw" version="15.9.1" type="github">
+  <diagram id="_qJE0IMFuHd5htYyMUY-" name="第 1 页">
+    <mxGraphModel dx="1422" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rDPkerh0MoqJ9josZGDd-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-1" target="rDPkerh0MoqJ9josZGDd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-1" value="在文件夹中放入待录订单文件excel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="228.94" y="77" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-2" target="rDPkerh0MoqJ9josZGDd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-2" value="读取excel中的单号列，并且去重" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369.94" y="227" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-4" target="rDPkerh0MoqJ9josZGDd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-4" value="根据单号开始循环" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354.94" y="307" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-6" target="rDPkerh0MoqJ9josZGDd-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-6" value="筛选excel中的当前号明细内容【单条或者多条数据行】" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369.94" y="387" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-8" target="rDPkerh0MoqJ9josZGDd-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-8" value="登录ERP，进入维护订单页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="384.94" y="77" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-12" target="rDPkerh0MoqJ9josZGDd-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="559.94" y="182" />
+              <mxPoint x="559.94" y="101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-12" target="rDPkerh0MoqJ9josZGDd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-12" value="判断是否进入成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="359.94" y="157" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-15" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="438.94" y="207" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-17" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="559.94" y="147" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-19" value="人工放文件" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="284.94" y="7" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=130;exitDy=22.5;exitPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="716.94" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-20" value="允许重试n次，如果达到重试还未成功登录，则邮件通知运维人员" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="579.94" y="77" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-23" target="rDPkerh0MoqJ9josZGDd-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="349.94" y="337" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="159.94" y="495" />
+              <mxPoint x="159.94" y="337" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-23" value="点击【新建订单】" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369.94" y="472" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-27" target="rDPkerh0MoqJ9josZGDd-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="359.94" y="337" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="159.94" y="573" />
+              <mxPoint x="159.94" y="337" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-27" target="rDPkerh0MoqJ9josZGDd-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-50" value="出现数据&lt;br&gt;异常问题" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rDPkerh0MoqJ9josZGDd-47">
+          <mxGeometry x="-0.2707" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-27" value="输入同一订单表头部分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="364.94" y="553" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-30" target="rDPkerh0MoqJ9josZGDd-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-30" value="根据明细行循环" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354.94" y="621" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-32" target="rDPkerh0MoqJ9josZGDd-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="526.94" y="730" />
+              <mxPoint x="526.94" y="651" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-32" target="rDPkerh0MoqJ9josZGDd-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-32" target="rDPkerh0MoqJ9josZGDd-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="159.94" y="735" />
+              <mxPoint x="159.94" y="337" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-32" target="rDPkerh0MoqJ9josZGDd-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-55" value="出现数据&lt;br&gt;异常问题" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rDPkerh0MoqJ9josZGDd-54">
+          <mxGeometry x="0.5038" y="-3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-32" value="输入订单明细部分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="364.94" y="715" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-35" value="重复在一个订单中&lt;br&gt;输入明细行数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="519.94" y="681" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-36" target="rDPkerh0MoqJ9josZGDd-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="785" y="788" />
+              <mxPoint x="785" y="337" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-39" value="开始下一个订单的&lt;br&gt;数据录入操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rDPkerh0MoqJ9josZGDd-38">
+          <mxGeometry x="0.1329" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-36" value="点击【保存】" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374.94" y="773" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-44" value="保存前任何一步操作报错，则关闭ERP重新进入维护订单页面，重复该单号录入操作" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="179.94" y="377" width="130" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-45" value="销售订单录入POC流程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="9" y="12" width="163" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-46" target="rDPkerh0MoqJ9josZGDd-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-46" value="判断，如果出现查询失败，或者为空时，则将该条订单终止操作，并且写入异常Excel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="588.94" y="590" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="rDPkerh0MoqJ9josZGDd-51" target="rDPkerh0MoqJ9josZGDd-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="671.94" y="337" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-57" value="开始下一个订单的&lt;br&gt;数据录入操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rDPkerh0MoqJ9josZGDd-56">
+          <mxGeometry x="-0.4551" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rDPkerh0MoqJ9josZGDd-51" value="终止当条订单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="611.94" y="493" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
